@@ -50,7 +50,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .top-banner div {
@@ -64,4 +63,39 @@ nav {
 
 .top-banner h1 {
     font-size: 4rem;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans h1 {
+    font-size: 2.5rem;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.plan-cards div {
+    width: 200px;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.plan-cards div img {
+    width: 80%;
+}
+
+.plan-cards div:hover {
+    background-color: tomato;
+    color: white;
+    border-color: white;
+    margin-top: 20px;
+    transition: 1s;
 }
