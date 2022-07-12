@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.nav-name {
+    font-size: 1.5rem;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-right: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: tomato;
+}
+
+.f-red {
+    color: tomato;
+    font-size: 1.5rem;
+}
+
+.top-banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-banner div {
+    width: 45%;
+    margin: 5%;
+}
+
+.top-banner img {
+    width: 100%;
+}
+
+.top-banner h1 {
+    font-size: 4rem;
+}
