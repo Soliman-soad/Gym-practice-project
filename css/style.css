@@ -12,17 +12,21 @@ header {
 }
 
 nav {
-    height: 80px;
+    /* height: 180px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.menu ul {
+.menu>ul {
     display: flex;
     justify-content: space-between;
+}
+
+.menu ul {
     list-style: none;
+
 }
 
 .menu ul li {
@@ -38,6 +42,27 @@ nav {
 .menu ul li a:hover {
     color: tomato;
 }
+
+.menu ul li>ul {
+    display: none;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+
+}
+
+.plans-nav {
+    position: absolute;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+.plans-nav :hover {
+    background-color: black;
+}
+
+
 
 .f-red {
     color: tomato;
@@ -60,6 +85,7 @@ nav {
 .top-banner img {
     width: 100%;
     animation: bodyimg 1.2s linear 0.3s 1 normal;
+
 }
 
 @keyframes bodyimg {
@@ -77,6 +103,7 @@ nav {
 }
 
 .plans {
+    height: 80vh;
     text-align: center;
     margin: 50px;
 }
